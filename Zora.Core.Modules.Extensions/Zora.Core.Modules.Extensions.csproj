@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<IsPackable>true</IsPackable>
+		<Version>1.0.9</Version>
+		<PackageId>Zora.Modules.Extensions</PackageId>
+		<Authors>Zora Technology</Authors>
+		<RootNamespace>Zora.Modules.Extensions</RootNamespace>
+		<AssemblyName>Zora.Modules.Extensions</AssemblyName>
+		<Description>
+			This package designed to simplify the implementation of health checks, liveness probes, and readiness probes in your .NET applications. With built-in support for various health check endpoints and customizable probes, it enables you to monitor the health and availability of your application components with ease.
+		</Description>		
+		<Title>Zora.Modules.Extensions</Title>
+		<PackageTags>aspnetcore</PackageTags>
+		<Company>Zora Technology</Company>
+		<Copyright>Copyright © Zora Technology 2024</Copyright>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Data.Tables" Version="12.9.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="8.0.6" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+</Project>
